@@ -24,3 +24,7 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 ```
+
+Go to package.json after importing the modules and add this under main:
+
+```"type": "module",```
