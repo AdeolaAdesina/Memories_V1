@@ -1,5 +1,9 @@
 # Memories_V1
 
+
+# First Step
+
+
 - create a client folder
 ```npx create-react-app ./```
 
@@ -27,4 +31,41 @@ import cors from 'cors';
 
 Go to package.json after importing the modules and add this under main:
 
-```"type": "module",```
+```"type": "module",
+"scripts": {
+  "start": "nodemon index.js"
+}
+
+```
+
+
+
+Now let's install dependencies for the client side 
+
+```npm install axios moment react-file-base64 redux reducx-think```
+
+- Axios for making API requests
+- moment for working with time and dates
+- react-file-base64 to convert images
+- redux
+- redux-thunk for asynchronous actions
+
+
+Now check the client folder, delete the SRC folder and create a new one.
+
+Then in the SRC folder, create an index.js file - we're going to use this file to connect our react app to index.html file.
+
+
+Index.js:
+
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+```
+
+
