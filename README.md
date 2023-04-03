@@ -1,7 +1,7 @@
 # Memories_V1
 
 
-# First Step
+# First Step - Set up React/Front end
 
 
 - create a client folder
@@ -69,3 +69,29 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 
+Now create App.js in src folder:
+
+```
+import React from 'react';
+
+const App = () => {
+    return (
+        <div>
+            <h1>App</h1>
+        </div>
+    );
+}
+
+export default App;
+```
+
+
+Now we should be ready to run our client side.
+
+Run with ```npm start```
+
+Close the terminal with Control + C.
+
+
+
+# Second Step -  Set up our Backend
