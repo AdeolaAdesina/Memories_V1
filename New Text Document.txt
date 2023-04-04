@@ -1,0 +1,6 @@
+password - 7h8nqMrcRb0S3P7Q
+
+
+
+mongodb+srv://adeolaadesina:<password>@clustermemories.uupnsl8.mongodb.net/?retryWrites=true&w=majority
+
